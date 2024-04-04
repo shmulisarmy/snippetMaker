@@ -1,0 +1,16 @@
+{
+	"Snippet Maker": {
+		"prefix": "ms",
+		"body": [
+			"\"${1:snippet name}\": {",
+		],
+			"\t\"prefix\": \"${2:prefix}\",",
+			"\t\"body\": [",
+			"\t\t\"${3:snippet body}\"",
+			"\t],",
+			"\t\"description\": \"${4:description}\"",
+			"},"
+		"description": "Create a snippet maker"
+		
+	},
+}
