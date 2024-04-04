@@ -21,5 +21,5 @@ this project even comes with a bonus Snippet Maker snippet which is exactly what
 
 # How You Can Contribute
 
-- [making gui]
+- [making a gui]
 - [add a feature that checks if the name field is already the name of another snippet in the file to avoid overriding original and handles this]
