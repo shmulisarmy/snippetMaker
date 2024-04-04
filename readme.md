@@ -14,6 +14,9 @@ to make a get started and the program will take over from there!!
 
 
 any field thats shows up as optional you don't have to worry about
+for example the name field you don't have to worry about because
+if no name is provided then its automatically assigned a name (anonymous x)
+
 this project even comes with a bonus Snippet Maker snippet which is exactly what it sounds like
 
 # How You Can Contribute

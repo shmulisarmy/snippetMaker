@@ -11,7 +11,7 @@ if input(f"{f.BLUE}p{f.RESET} to print out contents of current global snippets f
     print(content)
 
 
-name = input(f"name {optionalMessage}: ")
+name = input(f"snippet name {optionalMessage}: ")
 body = handelMultiLineInput()
 prefix = input(f"prefix {requiredMessage}: ")
 description = input(f"description {optionalMessage}: ")
