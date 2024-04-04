@@ -23,7 +23,7 @@ if scope:
 obj = f'{"{"}{newline}"prefix": "{prefix}",{scope}{newline}"body": [{longLine}"{longLineWithQuotes.join(body)}"{newline}],{newline}"description": "{description or f"a shortcut that turns {prefix} into {body}"}"\n'
 
 if not name:
-    name = nameReplacement()
+    name = autoName()
 
 snippet = '"' + name + '": ' + obj + '},'
 

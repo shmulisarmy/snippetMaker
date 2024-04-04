@@ -26,7 +26,7 @@ def message(snippet):
 
 
 
-def nameReplacement():
+def autoName():
     """if no name is provided then its automatically assigned a name (anonymous x)"""
     with open("text.txt", "a") as textFile:
         textFile.write(str(len(open("text.txt").readlines())+1))
